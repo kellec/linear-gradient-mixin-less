@@ -21,18 +21,12 @@
 
 .linear-gradient( @dir: top, @start-color: #eee, @end-color: #aaa ) {
 	background: -webkit-linear-gradient(@dir, @start-color 0%, @end-color 100%);
-	background: -moz-linear-gradient(@dir, @start-color 0%, @end-color 100%);
-	background: -ms-linear-gradient(@dir, @start-color 0%, @end-color 100%);
-	background: -o-linear-gradient(@dir, @start-color 0%, @end-color 100%);
 	background: linear-gradient(@dir, @start-color 0%, @end-color 100%);
 	.linear-gradient-ie( @dir, @start-color, @end-color);
 }
 
 .linear-gradient-multi( ... ) {
 	background-image: -webkit-linear-gradient(@arguments);
-	background-image: -moz-linear-gradient(@arguments);
-	background-image: -ms-linear-gradient(@arguments);
-	background-image: -o-linear-gradient(@arguments);
 	background-image: linear-gradient(@arguments);
 }
 
